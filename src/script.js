@@ -1,6 +1,6 @@
 let order = [];
 let clickedOrder = [];
-let score = 0;
+let score = 1;
 
 /*
 0 - verde 
@@ -93,7 +93,7 @@ let lose = () => {
 let playGame = () => {
     alert(`Bem vindo ao Genius, iniciando novo jogo!`)
     nextLevel();
-    score = 0;   
+    score = 1;   
 }
 
 green.onclick = ()=> click(0)
